@@ -20,14 +20,19 @@ namespace COMP1004_Lesson6
         private void SplashFormTimer_Tick(object sender, EventArgs e)
         {
             //1. instantiate the next form
-            CalculatorForm calculatorForm = new CalculatorForm();
-            calculatorForm.previousForm = this;
+            AbilityForm abilityForm = new AbilityForm();
+            abilityForm.PreviousForm = this;
             //2. pass a referance to the current form to the next form
             this.SplashFormTimer.Enabled = false;
-            calculatorForm.Show();
+            abilityForm.Show();
             this.Hide();
 
 
+
+        }
+
+        private void SplashForm_Load(object sender, EventArgs e)
+        {
 
         }
     }
