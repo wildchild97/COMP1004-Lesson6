@@ -42,7 +42,7 @@
             this.IntuitionLabel = new System.Windows.Forms.Label();
             this.HealthTextBox = new System.Windows.Forms.TextBox();
             this.HealthLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.KarmaTextBox = new System.Windows.Forms.TextBox();
             this.KarmaLabel = new System.Windows.Forms.Label();
             this.GenerateButton = new System.Windows.Forms.Button();
             this.NextButton = new System.Windows.Forms.Button();
@@ -65,17 +65,27 @@
             // 
             // FightingTextBox
             // 
+            this.FightingTextBox.BackColor = System.Drawing.Color.White;
+            this.FightingTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FightingTextBox.ForeColor = System.Drawing.Color.Black;
             this.FightingTextBox.Location = new System.Drawing.Point(11, 64);
             this.FightingTextBox.Name = "FightingTextBox";
-            this.FightingTextBox.Size = new System.Drawing.Size(89, 29);
+            this.FightingTextBox.ReadOnly = true;
+            this.FightingTextBox.Size = new System.Drawing.Size(89, 31);
             this.FightingTextBox.TabIndex = 1;
+            this.FightingTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // AgilityTextBox
             // 
+            this.AgilityTextBox.BackColor = System.Drawing.Color.White;
+            this.AgilityTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgilityTextBox.ForeColor = System.Drawing.Color.Black;
             this.AgilityTextBox.Location = new System.Drawing.Point(11, 126);
             this.AgilityTextBox.Name = "AgilityTextBox";
-            this.AgilityTextBox.Size = new System.Drawing.Size(89, 29);
+            this.AgilityTextBox.ReadOnly = true;
+            this.AgilityTextBox.Size = new System.Drawing.Size(89, 31);
             this.AgilityTextBox.TabIndex = 3;
+            this.AgilityTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // AgilityLabel
             // 
@@ -88,10 +98,15 @@
             // 
             // StrengthTextBox
             // 
+            this.StrengthTextBox.BackColor = System.Drawing.Color.White;
+            this.StrengthTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StrengthTextBox.ForeColor = System.Drawing.Color.Black;
             this.StrengthTextBox.Location = new System.Drawing.Point(11, 188);
             this.StrengthTextBox.Name = "StrengthTextBox";
-            this.StrengthTextBox.Size = new System.Drawing.Size(89, 29);
+            this.StrengthTextBox.ReadOnly = true;
+            this.StrengthTextBox.Size = new System.Drawing.Size(89, 31);
             this.StrengthTextBox.TabIndex = 5;
+            this.StrengthTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // StrenghtLabel
             // 
@@ -104,10 +119,15 @@
             // 
             // EnduranceTextBox
             // 
+            this.EnduranceTextBox.BackColor = System.Drawing.Color.White;
+            this.EnduranceTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnduranceTextBox.ForeColor = System.Drawing.Color.Black;
             this.EnduranceTextBox.Location = new System.Drawing.Point(11, 250);
             this.EnduranceTextBox.Name = "EnduranceTextBox";
-            this.EnduranceTextBox.Size = new System.Drawing.Size(89, 29);
+            this.EnduranceTextBox.ReadOnly = true;
+            this.EnduranceTextBox.Size = new System.Drawing.Size(89, 31);
             this.EnduranceTextBox.TabIndex = 7;
+            this.EnduranceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // EnduranceLabel
             // 
@@ -120,10 +140,15 @@
             // 
             // ReasonTextBox
             // 
+            this.ReasonTextBox.BackColor = System.Drawing.Color.White;
+            this.ReasonTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReasonTextBox.ForeColor = System.Drawing.Color.Black;
             this.ReasonTextBox.Location = new System.Drawing.Point(15, 76);
             this.ReasonTextBox.Name = "ReasonTextBox";
-            this.ReasonTextBox.Size = new System.Drawing.Size(89, 29);
+            this.ReasonTextBox.ReadOnly = true;
+            this.ReasonTextBox.Size = new System.Drawing.Size(89, 31);
             this.ReasonTextBox.TabIndex = 9;
+            this.ReasonTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ReasonLabel
             // 
@@ -136,10 +161,15 @@
             // 
             // IntuitionTextBox
             // 
+            this.IntuitionTextBox.BackColor = System.Drawing.Color.White;
+            this.IntuitionTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IntuitionTextBox.ForeColor = System.Drawing.Color.Black;
             this.IntuitionTextBox.Location = new System.Drawing.Point(16, 154);
             this.IntuitionTextBox.Name = "IntuitionTextBox";
-            this.IntuitionTextBox.Size = new System.Drawing.Size(89, 29);
+            this.IntuitionTextBox.ReadOnly = true;
+            this.IntuitionTextBox.Size = new System.Drawing.Size(89, 31);
             this.IntuitionTextBox.TabIndex = 11;
+            this.IntuitionTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // IntuitionLabel
             // 
@@ -152,10 +182,15 @@
             // 
             // HealthTextBox
             // 
+            this.HealthTextBox.BackColor = System.Drawing.Color.White;
+            this.HealthTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HealthTextBox.ForeColor = System.Drawing.Color.Black;
             this.HealthTextBox.Location = new System.Drawing.Point(164, 63);
             this.HealthTextBox.Name = "HealthTextBox";
-            this.HealthTextBox.Size = new System.Drawing.Size(89, 29);
+            this.HealthTextBox.ReadOnly = true;
+            this.HealthTextBox.Size = new System.Drawing.Size(89, 31);
             this.HealthTextBox.TabIndex = 13;
+            this.HealthTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // HealthLabel
             // 
@@ -166,12 +201,17 @@
             this.HealthLabel.TabIndex = 12;
             this.HealthLabel.Text = "Health";
             // 
-            // textBox1
+            // KarmaTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(153, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(89, 29);
-            this.textBox1.TabIndex = 15;
+            this.KarmaTextBox.BackColor = System.Drawing.Color.White;
+            this.KarmaTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KarmaTextBox.ForeColor = System.Drawing.Color.Black;
+            this.KarmaTextBox.Location = new System.Drawing.Point(153, 76);
+            this.KarmaTextBox.Name = "KarmaTextBox";
+            this.KarmaTextBox.ReadOnly = true;
+            this.KarmaTextBox.Size = new System.Drawing.Size(89, 31);
+            this.KarmaTextBox.TabIndex = 15;
+            this.KarmaTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // KarmaLabel
             // 
@@ -190,6 +230,7 @@
             this.GenerateButton.TabIndex = 16;
             this.GenerateButton.Text = "Generate";
             this.GenerateButton.UseVisualStyleBackColor = true;
+            this.GenerateButton.Click += new System.EventHandler(this.GenerateButton_Click);
             // 
             // NextButton
             // 
@@ -222,10 +263,15 @@
             // 
             // PsycheTextBox
             // 
+            this.PsycheTextBox.BackColor = System.Drawing.Color.White;
+            this.PsycheTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PsycheTextBox.ForeColor = System.Drawing.Color.Black;
             this.PsycheTextBox.Location = new System.Drawing.Point(18, 237);
             this.PsycheTextBox.Name = "PsycheTextBox";
-            this.PsycheTextBox.Size = new System.Drawing.Size(89, 29);
+            this.PsycheTextBox.ReadOnly = true;
+            this.PsycheTextBox.Size = new System.Drawing.Size(89, 31);
             this.PsycheTextBox.TabIndex = 20;
+            this.PsycheTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // PsycheLabel
             // 
@@ -245,7 +291,7 @@
             this.MentalAbilitiesGroupBox.Controls.Add(this.KarmaLabel);
             this.MentalAbilitiesGroupBox.Controls.Add(this.IntuitionLabel);
             this.MentalAbilitiesGroupBox.Controls.Add(this.IntuitionTextBox);
-            this.MentalAbilitiesGroupBox.Controls.Add(this.textBox1);
+            this.MentalAbilitiesGroupBox.Controls.Add(this.KarmaTextBox);
             this.MentalAbilitiesGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MentalAbilitiesGroupBox.Location = new System.Drawing.Point(328, 12);
             this.MentalAbilitiesGroupBox.Name = "MentalAbilitiesGroupBox";
@@ -291,7 +337,7 @@
         private System.Windows.Forms.Label IntuitionLabel;
         private System.Windows.Forms.TextBox HealthTextBox;
         private System.Windows.Forms.Label HealthLabel;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox KarmaTextBox;
         private System.Windows.Forms.Label KarmaLabel;
         private System.Windows.Forms.Button GenerateButton;
         private System.Windows.Forms.Button NextButton;
